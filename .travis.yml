@@ -11,4 +11,4 @@ cache: cargo
 script:
  - cargo build --verbose
  - cargo test --verbose
- - echo ${SECRET_MESSAGE}
+ - echo $SECRET_MESSAGE
